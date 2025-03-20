@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(37, 37, 37);
+    color: white;
+}  
+
+.cont_padre{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont_input{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    margin-bottom: 20vh;
+}
+
+input{
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+
+    height: 3rem;
+    width: 20rem;
+
+    text-align: center;
+    font-weight: 700;
+}
+
+button{
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    width: 10rem;
+
+}
+
+.cont_input button{
+
+    margin-top: 3rem;
+}
+
+h1{
+    margin-bottom: 3rem;
+}
+
+
+textarea{
+    width: 100%;
+}
+
+.cont_buttons{
+    margin-bottom: 10px;
+}
