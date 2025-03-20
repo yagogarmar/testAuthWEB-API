@@ -27,3 +27,19 @@ function login(){
     })
 
 }
+
+function logout(){
+    axios.get('/logout')
+    .then(function (response) {
+        // manejar respuesta exitosa
+        console.log(response);
+        if(response.status == 200){
+            window.location.href =  window.location.origin + "/login";
+        }
+    })
+    .catch(function (error) {
+        // manejar error
+        console.log(error);
+    })
+
+}
